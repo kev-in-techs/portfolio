@@ -2,7 +2,7 @@ import profilePic from '../assets/profile-pic-1.jpg'
 
 export default function Hero(){
     return (
-    <div className='flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16 max-w-screen-lg mx-auto'>
+    <section className='flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16 max-w-screen-lg mx-auto'>
         <div className='flex-1 flex-col flex justify-center'>
             <h1 className='flex-1 text-center leading-tight font-dm-sans text-3xl md:text-5xl'>Hi, I'm Kevin Lim</h1>
             <p className='flex-1 text-center font-dm-sans font-light text-xl md:text-2xl'>Software Engineer and Marathon Runner.</p>
@@ -12,5 +12,5 @@ export default function Hero(){
         <div className='flex-1 flex justify-center'>
             <img src={profilePic} alt='Portrait of me.' className='h-64 w-64 md:h-[25rem] md:w-[25rem] object-cover object-[0%_25%] rounded-full'/>
         </div>
-    </div>)
+    </section>)
 }
